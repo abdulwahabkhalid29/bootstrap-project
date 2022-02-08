@@ -1,0 +1,52 @@
+<html>
+    <head>
+       <title>Html form Element</title>
+       <link rel="stylesheet" href="assets/css/bootstrap.css">
+    </head>
+    <body style="background-color: rgba(36, 140, 15, 0.392);">
+        <div class="container-fluid" style="border: 10px groove green; background: white; margin-top: 30px;">
+            <div class="container text-center">
+            <img src="assets/img/form_image.PNG" alt="form image" style="height: 200px; width:300px;">
+            <div id="container">
+                <h1 class="pt-2 pb-3"> Register Form </h1>
+                <form>
+                    <div class="row pb-4">
+                        <div class="col">
+                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                     </div><br><br>
+                    <div class="col">
+                    <input type="text" class="form-control" placeholder="Enter your Last Name">
+                    </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                    <input type="password" class="form-control" placeholder="Enter Your password">
+                     </div>
+                    <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Enter your phone number">
+                    </div>    
+                    </div>
+                <div class="Input container">
+                    <label style="margin-top: 15px;"><b>Select Gender</b></label><br>
+                    <input type="radio" id="male" name="Gender">
+                    <label for="male">male</label>
+                    <input type="radio" id="Female" name="Gender">
+                    <label for="Female">Female</label>
+                </div>
+                <div class="Input container">
+                    <label style="margin-top: 15px;"><b> Select Language</b></label><br>
+                    <label for="panjabi">punjabi</label>
+                    <input type="checkbox" id="panjabi" name="language" value="panjabi">
+                    <label for="pthan">pathan</label>
+                    <input type="checkbox" id="pthan" name="language" value="pthan">
+                </div>
+                <div class="Input container">
+                    <a class="form-control mt-4 btn btn-success" href="form.html">Sign Up </a>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/bootstrap.js"></script>  
+    </body>
+</html>

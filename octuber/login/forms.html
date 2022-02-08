@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from style</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        .image{
+            background-color: rgba(20, 138, 29, 0.344);
+            font-family:Arial, Helvetica, sans-serif ;
+        }
+        .back{
+            width: 600px;
+            background-color: #c5c5c5;
+            margin-left: 170px;
+            border: rgb(24, 107, 19) 6px groove;
+        }
+    </style>
+</head>
+<body>
+    <div class="image">
+        <div class=" container"> 
+        <div class="row">
+            <div class="back p-5"> 
+        <form>
+            <h1 class="text-center text-success pb-4 display-5"><b><strong> Enter Form</strong></b></h1>
+            <div class="row">
+                <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Enter Your Name">
+             </div>
+            <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Enter your Last Name">
+            </div>    
+            </div>
+            <div class="row pt-4">
+                <div class="col-md-6">
+            <input type="password" class="form-control" placeholder="Enter Your password">
+             </div>
+            <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Enter your phone number">
+            </div>    
+            </div>
+           
+                <h4 style="margin-top: 30px; color: rgb(30, 140, 8);"><b>Select Gender</b></h4>
+                <input type="radio" id="male" name="Gender" class="text-success">
+                <label for="male">male</label>
+                <input type="radio" id="Female" name="Gender">
+                <label for="Female">Female</label>
+                
+            
+            <h4 class="pt-4" style="color: rgb(25, 148, 62);"><b> Language</b></h4>
+            <input type="checkbox">
+            <label for="s">Punjabi</label>
+            <input type="checkbox">
+            <label for="s">Sindhi</label>
+            <input type="checkbox">
+            <label for="s">Phtan</label>
+            <input type="checkbox">
+            <label for="s">Balochi</label>
+            <input type="checkbox">
+            <label for="s">Sariky</label>
+           <div class="pt-3 form-group">
+               <h4 for="country" style="margin-top: 20px;color: rgb(25, 148, 62);" ><b> Country: </b></h4>
+               <select class="form-control" id="sell">
+                   <option>Pakistan</option>
+                   <option>India</option>
+                   <option>Afghanistan</option>
+                   <option>Indonesia</option>
+               </select>
+           </div>
+           <div class="input-group mt-3 mb-3">
+               <div class="input-group-prepend">
+                <button type="button" class="btn-outline-success dropdown-toggle form-control " data-toggle="dropdown">Dropdown Button</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Home 1</a>
+                    <a class="dropdown-item" href="#">Home 2</a>
+                    <a class="dropdown-item" href="#">Home 3</a>
+                </div>
+               </div>
+               <input type="text" class="form-control" placeholder="Username">
+           </div>
+            <div class="p-3 ml-5 img3">
+                <div class="mt-5">
+                <div class="input-group md-3">
+                    <input type="text" class="form-control" placeholder="First N">
+                    <div class="pl-1 input-group-append">
+                        <button class="btn btn-success">Ok</button>
+                    </div>
+
+                    <input type="text" class="form-control" placeholder="Last N">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-success">Ok</button>
+                    </div>
+            </div><br>
+                <div class="col-md-24">
+                <div class="input-group md-3">
+                    <input type="text" class="form-control" placeholder="Username">
+                    <div class="input-group-append">
+                        <span class="input-group-text">@gmail.com</span>
+                    </div>
+            </div></div><br><br>
+            <div class="input-group md-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Password</span>
+                </div>
+                <input type="password" class="form-control">
+            </div><br>
+        </div>    
+    </div>
+            <a class="form-control mt-4 btn btn-success" href="#">Sign Up </a>
+        </form>
+            </div>
+        </div>
+        </div>
+    </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>

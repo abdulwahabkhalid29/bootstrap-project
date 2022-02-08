@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Form</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <h3>Modal Form</h3>
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modalform">Form</button>
+        <div class="modal fade" id="modalform">
+        <div class="p-3 modal-dialog bg-light">
+            <div class="model-content">
+            <div class="model-header">
+                <h4 class="modal-title">Add New User</h4>
+                <button style="margin-top: -35px;" type="button" class=" close" data-dismiss="modal">&times;</button>
+            </div>
+            <p style="color: lightgrey;">_______________________________________________________________________</p>
+                <div class="row">
+                    <div class="p-2"> 
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                    <label for="text">First Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control">
+                     </div>
+                    <div class="col-md-6">
+                        <label for="text">Last Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>    
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-md-6">
+                            <label for="text">User Name <span class="text-danger">*</span></label>
+                            <input type="password" class="form-control">
+                     </div>
+                    <div class="col-md-6">
+                        <label for="text">Role <span class="text-danger">*</span></label>
+                        <select name="Select" class="custom-slect mb-3 form-control">
+                        <option selected>Select Role</option>
+                        <option value="India">India</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="England">England</option>
+                    </select>
+                    </div>  
+                    <div class="col-md-6">
+                        <label for="text">Email <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="text">Contact No <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>      
+                    </div>
+                    <p class="text-light">_______________________________________________________________________</p>
+            <div class="modal-footer">
+                <button class="btn btn-success ">Add User</button>
+                <button class="btn btn-secondary ">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>

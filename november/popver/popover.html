@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popover</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <style>
+      body{
+        background-color: rgba(0, 255, 242, 0.2);  
+      }
+      .class{
+        
+        padding: 20px;
+        
+      }
+    </style>
+</head>
+<body>
+    <div class="container mt-5 class">
+        <h3 class="text-danger">Popover Example :-</h3>
+        <div class="row">
+          <div class="col-md-3">
+        <button class="btn btn-outline-secondary mt-5" data-toggle="popover" title="Toggle Popover" data-trigger="focus" data-placement="top" data-content="Hy How Are You">Top Toggle popover</button>
+          </div>
+          <div class="col-md-3">
+        <button class="btn btn-outline-primary mt-5" data-toggle="popover" title="Toggle Popover" data-trigger="focus" data-placement="Bottom" data-content="Hy How Are You">Bottom Toggle popover</button>
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-outline-warning mt-5" data-toggle="popover" title="Toggle Popover" data-trigger="focus" data-placement="Right" data-content="Hy How Are You">Right Toggle popover</button>
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-outline-dark mt-5" data-toggle="popover" title="Toggle Popover" data-trigger="focus" data-placement="Left" data-content="Hy How Are You">Left Toggle popover</button>
+      </div>
+        </div>
+    </div>
+      <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();   
+        });
+        </script>
+</body>
+</html>
